@@ -1,0 +1,6 @@
+## Requirements 
+This project currently uses only python standard library modules:
+1. socket
+2. sys 
+3. threading 
+no external dependencies are required
