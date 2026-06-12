@@ -1,39 +1,93 @@
+Basic Port Scanner 
 
-# Basic Port Scanner
+A simple yet efficient Python-based Port Scanner that identifies open TCP ports on a target host. This project demonstrates networking fundamentals, socket programming, and multithreading concepts commonly used in cybersecurity and system administration.
 
-A multithreaded Python Port Scanner that scans a target IP address or hostname to identify open TCP ports efficiently.
+Features
 
-## Features
+- Scan a custom range of ports
+- Detect open TCP ports
+- Multithreaded scanning for improved performance
+- Real-time scan progress
+- Lightweight and beginner-friendly
 
-- TCP port scanning
-- Multithreaded scanning for faster performance
-- Scans a user-defined port range
-- Displays open ports
-- Lightweight and beginner-friendly cybersecurity project
-- Command-line based interface
-
-## Technologies Used
+ Technologies Used
 
 - Python 3
-- Socket Module
-- Threading Module
+- Socket Programming
+- Threading
 - Sys Module
 
-## Requirements
+ Skills Demonstrated
 
-No external libraries are required. The project uses Python's built-in modules:
+- Network Security Fundamentals
+- TCP/IP Communication
+- Python Programming
+- Multithreading
+- Problem Solving
+- Cybersecurity Basics
 
-- socket
-- threading
-- sys
+📂 Project Structure
 
-## How It Works
+basic-port-scanner/
+│
+├── port_scanner.py
+├── README.md
+└── requirements.txt
 
-The scanner creates multiple threads to scan ports simultaneously. Each thread attempts to establish a TCP connection with a specific port on the target host. If the connection succeeds, the port is reported as open.
+ Usage
 
-## Installation
+Run the scanner:
 
-1. Clone the repository:
+python port_scanner.py
 
-```bash
-git clone https://github.com/shravanidhaybar01/basic_port_scanner.git
+Enter:
+
+- Target IP Address
+- Starting Port
+- Ending Port
+
+Example:
+
+Target IP: 127.0.0.1
+Start Port: 1
+End Port: 100
+
+📊 Sample Output
+
+Scanning 127.0.0.1...
+
+[OPEN] Port 22
+[OPEN] Port 80
+[OPEN] Port 443
+
+Scan Complete!
+
+🎯 Learning Objectives
+
+This project was built to gain hands-on experience with:
+
+- Socket Programming
+- Port Scanning Techniques
+- Thread Management
+- Network Reconnaissance
+- Cybersecurity Tool Development
+
+Future Enhancements
+
+- Banner Grabbing
+- Service Detection
+- UDP Port Scanning
+- Export Results to CSV
+- GUI Version
+- Custom Thread Pool
+
+⚠️ Disclaimer
+
+This project is intended for educational purposes and authorized security testing only. Always obtain proper permission before scanning any network or system.
+
+ Author
+
+Shravani Dhaybar
+
+BSc Cybersecurity & Digital Science Student | Aspiring Security Researcher | Open Source Enthusiast
+
